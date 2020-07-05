@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sunshield/static/css/main.69def48a.chunk.css",
+    "main.js": "/sunshield/static/js/main.a8240c5e.chunk.js",
+    "main.js.map": "/sunshield/static/js/main.a8240c5e.chunk.js.map",
+    "runtime-main.js": "/sunshield/static/js/runtime-main.1ea5109c.js",
+    "runtime-main.js.map": "/sunshield/static/js/runtime-main.1ea5109c.js.map",
+    "static/js/2.c9ca7d37.chunk.js": "/sunshield/static/js/2.c9ca7d37.chunk.js",
+    "static/js/2.c9ca7d37.chunk.js.map": "/sunshield/static/js/2.c9ca7d37.chunk.js.map",
+    "index.html": "/sunshield/index.html",
+    "precache-manifest.9c1e8bf9b23ec9ae35efe539615439a9.js": "/sunshield/precache-manifest.9c1e8bf9b23ec9ae35efe539615439a9.js",
+    "service-worker.js": "/sunshield/service-worker.js",
+    "static/css/main.69def48a.chunk.css.map": "/sunshield/static/css/main.69def48a.chunk.css.map",
+    "static/js/2.c9ca7d37.chunk.js.LICENSE.txt": "/sunshield/static/js/2.c9ca7d37.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ea5109c.js",
+    "static/js/2.c9ca7d37.chunk.js",
+    "static/css/main.69def48a.chunk.css",
+    "static/js/main.a8240c5e.chunk.js"
+  ]
+}
