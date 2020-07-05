@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e9493983ebeb3a7f587c6f44ac9770c4",
+    "revision": "53ad691f81bb720405d32b52fa13c6db",
     "url": "/sunshield/index.html"
   },
   {
-    "revision": "540b63b3d6bc5ceb541a",
+    "revision": "5dd44dcb6925df86f040",
     "url": "/sunshield/static/css/main.69def48a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sunshield/static/js/2.c9ca7d37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "540b63b3d6bc5ceb541a",
-    "url": "/sunshield/static/js/main.a8240c5e.chunk.js"
+    "revision": "5dd44dcb6925df86f040",
+    "url": "/sunshield/static/js/main.1f277bf2.chunk.js"
   },
   {
     "revision": "2735edf72c4a90897f21",
