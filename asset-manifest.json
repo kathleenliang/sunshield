@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/sunshield/static/css/main.69def48a.chunk.css",
-    "main.js": "/sunshield/static/js/main.15f01cb4.chunk.js",
-    "main.js.map": "/sunshield/static/js/main.15f01cb4.chunk.js.map",
+    "main.css": "/sunshield/static/css/main.585e8b06.chunk.css",
+    "main.js": "/sunshield/static/js/main.131e9fa0.chunk.js",
+    "main.js.map": "/sunshield/static/js/main.131e9fa0.chunk.js.map",
     "runtime-main.js": "/sunshield/static/js/runtime-main.1ea5109c.js",
     "runtime-main.js.map": "/sunshield/static/js/runtime-main.1ea5109c.js.map",
     "static/js/2.c9ca7d37.chunk.js": "/sunshield/static/js/2.c9ca7d37.chunk.js",
     "static/js/2.c9ca7d37.chunk.js.map": "/sunshield/static/js/2.c9ca7d37.chunk.js.map",
     "index.html": "/sunshield/index.html",
-    "precache-manifest.4a3316900835c32b64b49d232afececf.js": "/sunshield/precache-manifest.4a3316900835c32b64b49d232afececf.js",
+    "precache-manifest.eebb64e20530da8abcf8b51eb5bc8d60.js": "/sunshield/precache-manifest.eebb64e20530da8abcf8b51eb5bc8d60.js",
     "service-worker.js": "/sunshield/service-worker.js",
-    "static/css/main.69def48a.chunk.css.map": "/sunshield/static/css/main.69def48a.chunk.css.map",
+    "static/css/main.585e8b06.chunk.css.map": "/sunshield/static/css/main.585e8b06.chunk.css.map",
     "static/js/2.c9ca7d37.chunk.js.LICENSE.txt": "/sunshield/static/js/2.c9ca7d37.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1ea5109c.js",
     "static/js/2.c9ca7d37.chunk.js",
-    "static/css/main.69def48a.chunk.css",
-    "static/js/main.15f01cb4.chunk.js"
+    "static/css/main.585e8b06.chunk.css",
+    "static/js/main.131e9fa0.chunk.js"
   ]
 }
