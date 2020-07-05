@@ -1,7 +1,7 @@
-import React from 'react';
-import Emoji from './components/Emoji/Emoji';
-import UV from './components/UV/UV';
-import './App.css';
+import React from "react";
+import Emoji from "./components/Emoji/Emoji";
+import UV from "./components/UV/UV";
+import "./App.css";
 
 function App() {
   return (
@@ -12,8 +12,10 @@ function App() {
       <main>
         <UV />
       </main>
-      <footer>
-        Made by a sunscreen junkie <Emoji symbol="🧴" label="sunscreen"/> 
+      <footer id="disclaimer">
+        <Emoji symbol="🧴" label="sunscreen" /> If you use chemical exfoliation,
+        have sensitive skin, or have health concerns, using sunscreen is
+        probably better!
       </footer>
     </div>
   );

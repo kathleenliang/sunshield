@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Conditions from "../Conditions/Conditions";
+import Emoji from "../Emoji/Emoji";
 import classes from "./UV.module.css";
 
 const UV = () => {
@@ -41,7 +42,7 @@ const UV = () => {
 
   return (
     <div>
-      <h2>Find the UV index</h2>
+      <h2>Do I need<a href="#disclaimer">*</a> to wear sunscreen today? <Emoji symbol="🌞"/></h2>
       <form onSubmit={getUV}>
         <input
           type="text"
@@ -52,7 +53,7 @@ const UV = () => {
           onChange={(e) => setCity(e.target.value)}
         />
         <button className={classes.Button} type="submit">
-          Get UV
+          Get UV Index
         </button>
       </form>
       <Conditions responseObj={responseObj} error={error} loading={loading} />

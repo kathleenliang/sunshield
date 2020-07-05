@@ -4,11 +4,11 @@ import classes from "./Conditions.module.css";
 const conditions = (props) => {
   function getSunscreenMsg(e) {
     if (e >= "0" && e <= "2") {
-      return "No need to wear sunscreen!";
+      return "No need to wear sunscreen, get some Vitamin D!";
     } else if (e >= "3" && e <= "7") {
-      return "Wear sunscreen and a hat!";
+      return "Wear a hat and sunscreen!";
     } else {
-      return "Stay inside or in the shade! Wear a hat, sunglasses, and sunscreen!";
+      return "Stay in the shade or inside! Wear a hat, sunglasses, and sunscreen.";
     }
   }
 
@@ -21,11 +21,8 @@ const conditions = (props) => {
       {props.responseObj.data ? (
         <div>
           <p>
-            <strong>{props.responseObj.data[0].city_name}</strong>
-          </p>
-          <p>
-            The UV index is currently {Math.round(props.responseObj.data[0].uv)}
-            .
+            The UV index is currently {Math.round(props.responseObj.data[0].uv)}{" "}
+            in {props.responseObj.data[0].city_name}.
           </p>
           <p>{getSunscreenMsg(props.responseObj.data[0].uv)}</p>
         </div>

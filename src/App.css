@@ -1,31 +1,45 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #fae7c3;
+  font-family: Calibri;
+  color: #bd9242;
 }
 
 .App-header {
-  background-color: #282c34;
   display: flex;
   flex-direction: column;
-  color: white;
+  color: #bd9242;
 }
 
 main {
   flex-grow: 1;
   text-align: center;
-  padding: 25px;
+  padding: 5px;
 }
 
 footer {
-  padding: 2px;
-  min-height: 100px;
-  display: flex;
-  flex-direction: column;
+  padding: 5px;
   justify-content: center;
-  background: #EEEEEE;
   font-size: medium;
   text-align: center;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
 header {
-  padding: 25px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 60px;
+  line-height: 50px;
+  padding-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #bd9242;
+}
+
+a:hover {
+  color: #611c7c;
 }
