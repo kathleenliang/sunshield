@@ -85,10 +85,14 @@ const UV = (props) => {
           />
           <span>
             <button className={classes.Button} type="submit">
-              Search City
+              Search
             </button>
             &nbsp; OR &nbsp;
-            <button className={classes.Button} onClick={getUVLongLat}>
+            <button
+              className={classes.Button}
+              onClick={getUVLongLat}
+              disabled={!props.geolocation}
+            >
               Current Location
             </button>
           </span>

@@ -22,10 +22,15 @@
     margin: 20px auto;
 }
 
-h2 {
-    color: #BD9242;
-}
-
 .Button:hover {
     background: #cca55c;
+}
+
+.Button:disabled {
+    border: none;
+    background: #d1bb95;
+}
+
+h2 {
+    color: #BD9242;
 }

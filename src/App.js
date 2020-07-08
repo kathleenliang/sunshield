@@ -9,6 +9,7 @@ class App extends React.Component {
     this.state = {
       latitude: -1,
       longitude: -1,
+      geolocation: false,
     };
   }
 
@@ -23,23 +24,20 @@ class App extends React.Component {
       this.setState({
         latitude: position.coords.latitude,
         longitude: position.coords.longitude,
+        geolocation: true,
       });
     };
 
     const error = () => {
-      this.setState({ status: "unable" });
-      localStorage.removeItem("location-allowed");
-      alert("Unable to retrieve location.");
+      this.setState({
+        geolocation: false,
+      });
     };
 
     if (navigator.geolocation) {
-      this.setState({ status: "fetching" });
       navigator.geolocation.getCurrentPosition(success, error);
     } else {
-      this.setState({ status: "unsupported" });
-      alert(
-        "Your browser does not support location tracking, or permission is denied."
-      );
+      alert("Geolocation is not supported by your browser.");
     }
   };
 
@@ -50,7 +48,11 @@ class App extends React.Component {
           <h1>Sun Shield</h1>
         </header>
         <main>
-          <UV latitude={this.state.latitude} longitude={this.state.longitude} />
+          <UV
+            latitude={this.state.latitude}
+            longitude={this.state.longitude}
+            geolocation={this.state.geolocation}
+          />
         </main>
         <footer id="disclaimer">
           * Disclaimer: If you chemically exfoliate, have sensitive skin, or
