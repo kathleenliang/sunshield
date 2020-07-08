@@ -14,10 +14,10 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.weatherInit();
+    this.setGeolocation();
   }
 
-  weatherInit = () => {
+  setGeolocation = () => {
     const success = (position) => {
       this.setState({ status: "fetching" });
       localStorage.setItem("location-allowed", true);

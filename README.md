@@ -1,4 +1,3 @@
 # Sun Shield
 
-This uses the ... API to determine if you need to wear sunscreen!
-GPS detection
+This web app determines if you need to wear sunscreen! You can search for a city or use your current location.
