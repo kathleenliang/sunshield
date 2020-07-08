@@ -1,7 +1,7 @@
 .TextInput {
     font-size: large;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 5px;
+    border-radius: 10px;
     display: block;
     margin: 5px auto;
 }
@@ -12,8 +12,8 @@
 }
 
 .Button {
-    display: block;
-    padding: .5rem;
+    border-color: #BD9242;
+    padding: 10px;
     font-size: 1em;
     background: #BD9242;
     border-radius: 10px;

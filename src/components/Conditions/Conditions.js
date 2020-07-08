@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Conditions.module.css";
 
-const conditions = (props) => {
+const Conditions = (props) => {
   function getSunscreenMsg(e) {
     if (e >= "0" && e <= "2") {
       return "No need to wear sunscreen, get some Vitamin D!";
@@ -31,4 +31,4 @@ const conditions = (props) => {
   );
 };
 
-export default conditions;
+export default Conditions;
